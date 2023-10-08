@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+   <title>BasketBall Score Board</title>
+</head>
+<body>
+
+    <div class="div-board">
+
+        <div class="home">
+            <h1>home</h1>
+            <p id="homeCount">0</p>
+            <div id="divPoints">
+                <div onclick="addOnePoint()" class="addPoint" id="plusOne">+1</div>
+                <div onclick ="addTwoPoint()" class="addPoint" id="plustwo">+2</div>
+                <div onclick="addThreePoint()" class="addPoint" id="plusThree">+3</div>
+            </div>
+        </div>
+    
+        <div class="guest">
+            <h1>guest</h1>
+            <p id="guestCount">0</p>
+            <div id="divPoints">
+                <div onclick="addOnePointGuest()" class="addPoint" id="plusOne">+1</div>
+                <div onclick="addTwoPointGuest()" class="addPoint" id="plustwo">+2</div>
+                <div onclick="addThreePointGuest()"  class="addPoint" id="plusThree">+3</div>
+            </div>
+        </div>
+     
+        <div>
+            <button id="reset" onclick="reset()">New game</button>
+        </div>
+        
+       
+
+    </div>
+    
+    
+
+
+    
+
+
+
+
+<script src="script.js"></script>    
+</body>
+</html>
